@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.header{
+	background: url(https://cdn-ua.volkswagen.at/media/Abstract_Image_B960_Component.Content_SimpleMedia_Image_Component/7261-89334_1831-content-712533-child-b960/dh-1282-c2426a/222a20d3/1657155357/new-tiguan.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgb(169 162 162 / 35%);
+}
+
+.overlay div{
+	color: white;
+	position: absolute;
+	top: 30%;
+	min-width: 100%;
+}
+
+.overlay div h1{
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.about{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.about h1, .cars h1, .trade_in h1, .products h1{
+	padding-bottom: 1em;
+}
+
+.about div[class|="col"]{
+	padding: 0 3em;
+}
+
+.about .row .text-center{
+	border-right: 2px solid black ;
+}
+
+.cars, .products{
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background: #343a40;
+	color: white;
+}
+
+.cars div[class|=|col]{
+	padding: 2em;
+}
+
+.cars h5{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.trade_in{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.products .card{
+	color: black;
+}
+.team img{
+	border: 5px solid #343a40;
+}
+.personDesc{
+	background:#343a40 ;
+	color: white;
+}
+.personDesc span{
+	font-size: 0.8em;
+	color: lightgrey;
+}
+.feedback .col-sm-4{
+	align-self: center;
+}
